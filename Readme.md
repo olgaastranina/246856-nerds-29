@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Olga Shchiptsova](https://up.htmlacademy.ru/htmlcss/29/user/246856).
-* Наставник: `Олеся Севастянова`.
+* Наставник: `Олеся Севостьянова`.(https://htmlacademy.ru/profile/id498579).
 
 ---
 
