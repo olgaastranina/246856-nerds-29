@@ -4,6 +4,9 @@
 --basic-red:   #FB565A;
 --basic-green: #00CA74;
 --basic-yellow:#EFC849;
+--basic-white: #888888;
+--basic-black: #283136;
+
 }
 
 /*global*/
@@ -12,13 +15,229 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Roboto", Arial, sans-serif;
-  font-size: 100px;
+  font-size: 16px;
   line-height: 24px;
-  font-weight: 700;
-  color: var(--basic-white);
+  font-weight: normal;
+  color: var(--basic-black);
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* main navigation */
+.main-navigation {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 500;
   text-transform: uppercase;
-  background-color: var(--basic-black);
-  background-image: url("../img/bg.jpg");
-  background-position: top center;
-  background-repeat: no-repeat;
+  align-items: center;
+  background-color: var(--basic-grey);
+}
+.login-link{
+  color:black;
+}
+.site-navigation{
+  list-style: none;
+}
+.site-navigation a {
+  color: black;
+}
+.site-navigation a:hover,
+.site-navigation a:focus,
+
+.site-navigation-current a:not([href]) {
+  background-color: var(--basic-grey);}
+
+
+  /*description*/
+  .description-list{
+    list-style: none;
+    background-color: var(--basic-grey);
+    font-weight: 500;
+font-size: 55px;
+line-height: 55px;
+  }
+  .description-list p{
+    font-size: 16px;
+line-height: 24px;
+  }
+  .description-button{
+    background: var(--basic-red);
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+line-height: 18px;
+    border:none;
+    vertical-align: middle;
+    text-align: center;
+    width: 240px;
+height: 50px;
+left: 140px;
+top: 415px;
+  }
+  
+/*products*/
+.products-item-site{
+  border:3px;
+  padding-left: 39px;
+  padding-right: 40px;
+  padding-top: 17px;
+  padding-bottom: 15px;
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: var(--basic-red);
+  font-size: 16px;
+line-height: 18px;
+text-transform: uppercase;
+}
+
+.products-item-app{
+  border:3px;
+  padding-left: 39px;
+  padding-right: 40px;
+  padding-top: 17px;
+  padding-bottom: 15px;
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: var(--basic-green);
+  font-size: 16px;
+line-height: 18px;
+text-transform: uppercase;
+}
+
+.products-item-presentation{
+  border:3px;
+  padding-left: 39px;
+  padding-right: 40px;
+  padding-top: 17px;
+  padding-bottom: 15px;
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: var(--basic-yellow);
+  font-size: 16px;
+line-height: 18px;
+text-transform: uppercase;
+}
+.products{
+list-style:none;
+font-size: 16px;
+line-height: 24px;
+color: var(--basic-black);
+}
+.products-list{
+  list-style: none;
+}
+.products-item{
+    text-align: left;
+}
+.products-item h3{
+  font-size: 24px;
+line-height: 30px;
+text-transform: uppercase;
+}
+
+/*description*/
+.full-description{
+  color: var(--basic-black);
+  font-size:16px;
+line-height:24px;
+text-align:left;
+}
+.full-description h3{
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 45px;
+  text-align: left;
+}
+.full-description ul{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-align: left;
+}
+.full-description-item{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+text-transform: none;
+padding:7px;
+}
+.full-condition-list{
+  list-style: none;
+}
+
+.full-condition-procent{
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 64px;
+color:black;
+}
+
+.full-condition-item{
+font-weight: normal;
+font-size: 16px;
+line-height: 18px;
+color: var(--basic-black);
+text-transform: none;
+}
+/*partners*/
+.partners-list{
+  list-style: none;
+}
+.partners-item a:hover,
+.partners-item a:focus {
+  text-decoration: none;
+}
+
+
+
+/*contacts*/
+.contacts h3{
+  font-weight: bold;
+font-size: 18px;
+line-height: 30px;
+text-transform: uppercase;
+color:black;
+}
+.contacts p{
+  font-weight: normal;
+font-size: 16px;
+line-height: 18px;
+}
+.contacts-phone{
+  color:inherit;
+}
+.contacts-button{
+  background: var(--basic-red);
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+line-height: 18px;
+    border:none;
+    vertical-align: middle;
+    text-align: center;
+    width: 219px;
+height: 50px;
+}
+.media h3{
+  font-weight: bold;
+font-size: 36px;
+line-height: 36px;
+color:black;
+}
+.media p{
+  font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+color:var(--basic-black);
+}
+.media-list{
+  list-style: none;
 }
