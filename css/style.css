@@ -45,12 +45,13 @@ img {
 .site-navigation{
   list-style: none;
 }
-.site navigation a:hover{
-  color:var(--basic-red)
-  )
 .site-navigation a {
   color: black;
 }
+.site navigation a:hover{
+  color:#FB565A;
+}
+
   /*description*/
 .description-head{
   background-color: var(--basic-grey);
