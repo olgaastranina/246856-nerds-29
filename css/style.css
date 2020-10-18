@@ -163,6 +163,7 @@ img {
 .products-item-app:active{
   background-color:var(--higher-green);
   color: var(--white-opacity);
+  box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
 }
 .products-item-presentation:hover{
   background-color: var(--lower-yellow);
@@ -170,6 +171,7 @@ img {
 .products-item-presentation:active{
   background-color: var(--higher-yellow);
   color: var(--white-opacity);
+  box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
 }
 /*description*/
 .full-description{
@@ -216,7 +218,7 @@ img {
   list-style: none;
 }
 
-.full-condition-procent{
+.full-condition-precent{
   font-weight: bold;
   font-size: 45px;
   line-height: 64px;
@@ -269,6 +271,15 @@ img {
   width: 219px;
   height: 50px;
 }
+
+.contacts-button:hover{
+  background-color: var(--lower-red);
+  }
+.contacts-button:active{
+  background-color: var(--higher-red);
+  color: rgba(255, 255, 255, 0.3);
+  box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
+  }
 .media h3{
   font-weight: bold;
   font-size: 36px;
