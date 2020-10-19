@@ -50,10 +50,10 @@ img {
 .baskin-link{
   color: var(--total-black);
 }
-.baskin-link:hover{
+.basket-link:hover{
   color:var(--basic-red);
 }
-.baskin-link:active{
+.basket-link:active{
   color:var(--total-black);
 }
 .site-navigation{
@@ -103,7 +103,7 @@ img {
   }
   .description-button:active{
   background-color: var(--higher-red);
-  color: rgba(255, 255, 255, 0.3);
+  color: var(--white-opacity);
   box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
   }
 /*products*/
@@ -118,7 +118,7 @@ img {
   background-color: var(--basic-red);
   font-size: 16px;
   line-height: 18px;
-  font-weight:normal;
+  font-weight: 500;
   text-transform: uppercase;
 }
 
@@ -218,7 +218,7 @@ img {
   list-style: none;
 }
 
-.full-condition-precent{
+.full-condition-percent{
   font-weight: bold;
   font-size: 45px;
   line-height: 64px;
