@@ -15,6 +15,9 @@
 --total-black: #000000;
 --total-white: #FFFFFF;
 --white-opacity: rgba(255, 255, 255, 0.3);
+--black-opacity: rgba(0,0,0, 0.3);
+--middle-black: rgba(0,0,0,0.6);
+--grey-item: #666666;
 }
 
 /*global*/
@@ -98,6 +101,7 @@ img {
   padding-top: 17px;
   padding-bottom: 15px;
   }
+
   .description-button:hover{
   background-color: var(--lower-red);
   }
@@ -121,7 +125,12 @@ img {
   font-weight: 500;
   text-transform: uppercase;
 }
-
+.head-sedona{
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color:var(--total-black);
+}
 .products-item-app{
   background-color: var(--basic-green);
 }
@@ -149,6 +158,30 @@ img {
   color: var(--total-black);
 
 }
+.product-item-button{
+  background: var(--basic-red);
+  color: var(--total-white);
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 18px;
+  border:none;
+  vertical-align: middle;
+  text-align: center;
+  padding-left: 72px;
+  padding-right: 72px;
+  padding-top: 17px;
+  padding-bottom: 15px;
+}
+.product-item-button:hover{
+  background-color: var(--lower-red);
+  }
+.product-item-button:active{
+  background-color: var(--higher-red);
+  color: var(--white-opacity);
+  box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
+  }
+
+
 .products-item-site:hover{
   background-color: var(--lower-red);
 }
@@ -173,6 +206,51 @@ img {
   color: var(--white-opacity);
   box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
 }
+.sort{
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  color: var(--total-black);
+  align-items: center;
+  text-transform: uppercase;
+}
+.products-sort{
+  font-size: 14px;
+  line-height: 18px;
+  font-weight:normal;
+  text-transform: uppercase;
+color: var(--black-opacity);
+}
+.products-sort:hover{
+color:var(--middle-black);
+}
+.products-sort:active{
+  color:var(--total-black);
+  }
+  .product-page{
+  list-style: none;
+  }
+  .product-list{
+  list-style:none;
+  }
+  .product-list-item p{
+  font-size: 16px;
+  line-height: 18px;
+  text-align:center;
+  color:var(--grey-item);
+  }
+.product-page-number{
+  background: var(--total-white);
+  color:var(--total-black);
+  font-size: 16px;
+  line-height: 18px;
+  border: 3px solid #DBDBDB;
+  vertical-align: middle;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  }
+
 /*description*/
 .full-description{
   color: var(--basic-black);
